@@ -21,10 +21,10 @@ from typing import Union
 
 class Solution:
     def helloworld(self, string: str) -> Union[str, None]:
-        #input type: String
-        # return type: String
+        '''
+        returns "Hello World!" if the input string is exactly, "Hello World!," otherwise None
+        '''
 
-        # TODO: Write code below to return a string with the solution to the prompt
         magic_word: str = "Hello World!"
         if string == magic_word:
             return magic_word
